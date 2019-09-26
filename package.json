@@ -1,0 +1,26 @@
+{
+  "name": "de.dpauli.restapi",
+  "version": "1.0.0",
+  "description": "Using to build an example restapi",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.paulid.de:dfpauli/restapi.git"
+  },
+  "author": "dfpauli",
+  "license": "ISC",
+  
+    "dependencies": {
+        "express": "~3.0.1",
+        "sequelize":"latest",
+        "q":"latest",
+        "tedious":"latest",
+        "angular":"latest",
+        "angular-ui-router": "~0.2.11",
+        "path":"latest",
+        "dat-gui":"latest"
+      }
+}
